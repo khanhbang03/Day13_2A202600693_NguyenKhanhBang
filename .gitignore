@@ -1,5 +1,8 @@
 # binaries are distributed separately per phase (NOT in the public repo)
 bin/
+vendor-py312/
+observathon-*.zip
+observathon-sim
 # python / runtime
 __pycache__/
 *.pyc
