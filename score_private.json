@@ -1,0 +1,21 @@
+{
+  "team": "NguyenKhanhBang",
+  "phase": "private",
+  "headline": 90.28,
+  "sub": {
+    "correct": 0.615,
+    "quality": 0.7596,
+    "error": 1.0,
+    "latency": 0.5937,
+    "cost": 0.6753,
+    "drift": 0.2835,
+    "prompt": 0.7785
+  },
+  "diag_f1": 0.952,
+  "n": 80,
+  "n_correct": 39,
+  "judge_mode": "offline",
+  "weights_hash": "e81a8ed58d93",
+  "key_hash": "7e3905b75db0",
+  "sig": "c2ccaed4aab1b63a744695ee721bae5caebe492ac3a7270fb6aada69e5fc1bc2"
+}
