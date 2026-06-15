@@ -3,6 +3,9 @@ bin/
 vendor-py312/
 observathon-*.zip
 observathon-sim
+observathon-score
+run_output_public_*.json
+score_public_*.json
 # python / runtime
 __pycache__/
 *.pyc

@@ -3,44 +3,64 @@
   "schema_version": 1,
   "findings": [
     {
+      "fault_class": "error_spike",
+      "evidence": {"metric": "REQUEST_COMPLETE.status", "observed": "Wrapper logs provider/tool exceptions and retries transient wrapper_error statuses.", "trace_ids": []},
+      "root_cause": "The shipped config enabled intermittent tool/provider failures and had retry disabled.",
+      "suggested_fix": "Set tool_error_rate to 0, enable retry with bounded attempts, and log error/error_message per request."
+    },
+    {
       "fault_class": "latency_spike",
-      "evidence": {
-        "metric": "latency_controls",
-        "observed": "Original config disabled cache/retry, used high context and allowed up to 12 steps; wrapper now logs REQUEST_COMPLETE with latency_ms, wall_ms, steps and tools_used for every request.",
-        "trace_ids": []
-      },
-      "root_cause": "Verbose context, no cache, no tool budget and no loop guard let repeated or drifting requests spend extra LLM/tool steps.",
-      "suggested_fix": "Enable cache, loop_guard and timeout; reduce context/max_completion_tokens/max_steps; cap tool_budget; wrapper returns cached successful repeats."
+      "evidence": {"metric": "latency_ms/wall_ms", "observed": "Original max_steps/context were high and cache was disabled; wrapper now logs latency, steps, tools_used, and cache hits.", "trace_ids": []},
+      "root_cause": "Repeated tool calls, verbose context, no timeout, and no cache produced long-tail requests.",
+      "suggested_fix": "Enable cache, timeout, loop_guard, smaller context, smaller max_completion_tokens, max_steps 6, and tool_budget 4."
     },
     {
-      "fault_class": "arithmetic_error",
-      "evidence": {
-        "metric": "answer_guardrail",
-        "observed": "Original temperature was 1.6 and the prompt only asked for a total, so totals could be estimated instead of computed. New prompt specifies exact integer formula and verify=true.",
-        "trace_ids": []
-      },
-      "root_cause": "High-temperature generation and underspecified checkout arithmetic.",
-      "suggested_fix": "Lower temperature, enable planner/verify, and require subtotal, discount floor division, shipping, and final parseable total."
+      "fault_class": "cost_blowup",
+      "evidence": {"metric": "usage.total_tokens/cost_usd", "observed": "Telemetry computes cost_usd from model usage; original verbose_system and large completion cap inflated tokens.", "trace_ids": []},
+      "root_cause": "Verbose prompt/context and unconstrained answer length made the model spend unnecessary tokens.",
+      "suggested_fix": "Use concise prompt, standard price tier, low context_size, max_completion_tokens 256, cache, and final-answer postprocessing."
     },
     {
-      "fault_class": "prompt_injection",
-      "evidence": {
-        "metric": "input_sanitization",
-        "observed": "Private traffic can include order notes with fake system prices; wrapper logs INPUT_SANITIZED when note-like spans are neutralized.",
-        "trace_ids": []
-      },
-      "root_cause": "Order notes were not separated from trusted instructions.",
-      "suggested_fix": "Prompt treats notes as data only and wrapper replaces note/instruction spans before calling the agent."
+      "fault_class": "quality_drift",
+      "evidence": {"metric": "turn_index", "observed": "Wrapper logs session_id and turn_index; config resets context every request.", "trace_ids": []},
+      "root_cause": "Session memory and deliberate drift rate can contaminate later turns.",
+      "suggested_fix": "Set session_drift_rate to 0, context_reset_every to 1, low temperature, and route a stable system prompt each call."
+    },
+    {
+      "fault_class": "infinite_loop",
+      "evidence": {"metric": "status/max_steps and repeated trace actions", "observed": "Wrapper records steps and trace_summary; loop_guard is enabled.", "trace_ids": []},
+      "root_cause": "No loop guard and high max_steps let repeated tool calls continue until max_steps.",
+      "suggested_fix": "Enable loop_guard, cap max_steps at 6, cap tool_budget at 4, and retry once with reset context."
+    },
+    {
+      "fault_class": "tool_failure",
+      "evidence": {"metric": "tool observations/errors", "observed": "normalize_unicode is enabled and the bad MacBook out-of-stock override is corrected.", "trace_ids": []},
+      "root_cause": "The original config had unicode normalization off and a bad catalog override for MacBook stock.",
+      "suggested_fix": "Enable normalize_unicode, fix the MacBook availability override, and refuse only on actual tool out-of-stock/unknown/unsupported results."
     },
     {
       "fault_class": "pii_leak",
-      "evidence": {
-        "metric": "pii_redactions",
-        "observed": "Public traffic includes contact details; wrapper logs answer_redactions and redacts any leaked email/phone before returning.",
-        "trace_ids": []
-      },
-      "root_cause": "Original prompt did not forbid echoing customer contact data and redact_pii was disabled.",
-      "suggested_fix": "Enable redact_pii, add no-PII prompt rule, and apply output redaction in wrapper."
+      "evidence": {"metric": "answer_redactions", "observed": "Wrapper redacts leaked email/phone values and logs answer_redactions.", "trace_ids": []},
+      "root_cause": "Original prompt/config allowed customer contact details to be repeated in the answer.",
+      "suggested_fix": "Enable redact_pii, add explicit no-PII prompt rule, and apply output redaction before returning."
+    },
+    {
+      "fault_class": "fabrication",
+      "evidence": {"metric": "refusal behavior", "observed": "Prompt requires tool-grounded stock/price and no total for unknown, out-of-stock, unsupported, or failed-tool cases.", "trace_ids": []},
+      "root_cause": "The original prompt asked for a total without forbidding invented prices or totals.",
+      "suggested_fix": "Use only check_stock/get_discount/calc_shipping results; refuse clearly with no total when grounding is missing."
+    },
+    {
+      "fault_class": "arithmetic_error",
+      "evidence": {"metric": "final_total", "observed": "Prompt gives exact integer formula and verify=true is enabled.", "trace_ids": []},
+      "root_cause": "High temperature and underspecified discount/shipping arithmetic caused estimated totals.",
+      "suggested_fix": "Use temperature 0.1, verify=true, and subtotal * (100 - discount_percent) // 100 + shipping."
+    },
+    {
+      "fault_class": "tool_overuse",
+      "evidence": {"metric": "tools_used", "observed": "Wrapper logs tools_used; prompt says each tool at most once and config caps tool_budget at 4.", "trace_ids": []},
+      "root_cause": "The original agent over-called tools to be safe.",
+      "suggested_fix": "Call check_stock once, get_discount only if coupon exists, calc_shipping only if destination exists, and cap tool_budget."
     }
   ]
 }

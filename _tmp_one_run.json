@@ -1,0 +1,51 @@
+{
+  "phase": "public",
+  "n": 1,
+  "users": null,
+  "turns": null,
+  "config_used": {
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
+    "model_price_tier": "standard",
+    "max_steps": 6,
+    "loop_guard": true,
+    "temperature": 0.1,
+    "context_size": 2,
+    "verbose_system": false,
+    "retry": {
+      "enabled": true,
+      "max_attempts": 2,
+      "backoff_ms": 150
+    },
+    "cache": {
+      "enabled": true
+    },
+    "normalize_unicode": true,
+    "redact_pii": true,
+    "session_drift_rate": 0.0,
+    "context_reset_every": 1,
+    "tool_error_rate": 0.0,
+    "catalog_override": {
+      "macbook": {
+        "in_stock": true
+      }
+    },
+    "planner": true,
+    "verify": true,
+    "self_consistency": 1,
+    "tool_budget": 4,
+    "prompt_chars": 1417,
+    "custom_prompt": true
+  },
+  "results": [
+    {
+      "qid": "pub-120",
+      "question": "Mua 3 MacBook dung ma WINNER, ship hải phòng tinh tong tien giup minh.",
+      "answer": "Khong the dat hang voi thong tin hien tai.",
+      "status": "ok",
+      "session": "pub-120",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.659041Z"
+    }
+  ]
+}

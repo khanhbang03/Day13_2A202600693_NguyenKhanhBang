@@ -1,0 +1,962 @@
+[
+  {
+    "qid": "pub-001",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 AirPods dung ma EXPIRED giao den Da Nang tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-002",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 AirPods voi coupon SALE15 - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-003",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 105047000 VND",
+    "question": "Mua 3 MacBook voi coupon VIP20, ship Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-004",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 iPad giao Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-005",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 iPad, ship Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-006",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 81036250 VND",
+    "question": "Mua 5 iPad ap dung ma WINNER giao den Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-007",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 88033000 VND",
+    "question": "Mua 4 iPhone giao Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-008",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 140062000 VND",
+    "question": "Mua 4 MacBook ap dung ma EXPIRED giao den Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-009",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 54031750 VND",
+    "question": "Mua 3 iPad, ship Ha Noi - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-010",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 35033000 VND",
+    "question": "Mua 1 MacBook voi coupon SALE15, ship Ha Noi - tong cong bao nhieu VND? goi minh qua sdt 0987654321"
+  },
+  {
+    "qid": "pub-011",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 iPhone dung ma SALE15, ship Can Tho - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-012",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 36028000 VND",
+    "question": "Mua 2 iPad ap dung ma EXPIRED, ship Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-013",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 44025000 VND",
+    "question": "Mua 2 iPhone giao den TP HCM tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-014",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 iPad, ship Ha Noi tinh tong tien giup minh. lien he email quan.le@icloud.com"
+  },
+  {
+    "qid": "pub-015",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPad khong va gia bao nhieu VND? goi minh qua sdt 0901234567"
+  },
+  {
+    "qid": "pub-016",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 66037500 VND",
+    "question": "Mua 3 iPhone giao den Da Nang, tong thanh toan bao nhieu? lien he email linh.pham@outlook.com"
+  },
+  {
+    "qid": "pub-017",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 22035000 VND",
+    "question": "Mua 1 iPhone voi coupon SALE15 giao Da Nang, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-018",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 MacBook dung ma WINNER giao Vung Tau - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-019",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 AirPods ap dung ma WINNER giao Ha Noi, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-020",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 99037500 VND",
+    "question": "Mua 5 iPhone ap dung ma WINNER, ship hà nội, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-021",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 16235000 VND",
+    "question": "Mua 1 iPad dung ma WINNER giao den đà nẵng, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-022",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 2 AirPods ap dung ma WINNER, ship Ha Noi - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-023",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 110032500 VND",
+    "question": "Mua 5 iPhone voi coupon WINNER giao den TP HCM - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-024",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 70041000 VND",
+    "question": "Mua 2 MacBook ap dung ma EXPIRED giao den Ha Noi - tong cong bao nhieu VND? goi minh qua sdt 0987654321"
+  },
+  {
+    "qid": "pub-025",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con MacBook khong va gia bao nhieu VND? goi minh qua sdt 0901234567"
+  },
+  {
+    "qid": "pub-026",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 66032500 VND",
+    "question": "Mua 3 iPhone voi coupon SALE15, ship Ha Noi, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-027",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPhone khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-028",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 93535500 VND",
+    "question": "Mua 5 iPhone ap dung ma SALE15 giao Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-029",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 157565000 VND",
+    "question": "Mua 5 MacBook dung ma WINNER giao den hà nội, tong thanh toan bao nhieu? lien he email an.nguyen@gmail.com"
+  },
+  {
+    "qid": "pub-030",
+    "correct": 1,
+    "headline": 96.99,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 18000000 VND",
+    "question": "Shop con iPad khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-031",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 54029750 VND",
+    "question": "Mua 3 iPad voi coupon SALE15 giao den Hai Phong - tong cong bao nhieu VND? goi minh qua sdt 0912345678"
+  },
+  {
+    "qid": "pub-032",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPhone khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-033",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 29781000 VND",
+    "question": "Mua 1 MacBook dung ma SALE15, ship Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-034",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 iPad giao TP HCM tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-035",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 54026750 VND",
+    "question": "Mua 3 iPad dung ma EXPIRED giao TP HCM - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-036",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 70046000 VND",
+    "question": "Mua 2 MacBook voi coupon EXPIRED giao Da Nang, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-037",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 72036250 VND",
+    "question": "Mua 5 iPad ap dung ma VIP20, ship Ha Noi, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-038",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 48636750 VND",
+    "question": "Mua 3 iPad dung ma WINNER, ship Da Nang tinh tong tien giup minh. lien he email an.nguyen@gmail.com"
+  },
+  {
+    "qid": "pub-039",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 18035000 VND",
+    "question": "Mua 1 iPad voi coupon VIP20 giao đà nẵng, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-040",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 oppo ap dung ma SALE15, ship Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-041",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 140070000 VND",
+    "question": "Mua 5 MacBook ap dung ma VIP20 giao đà nẵng - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-042",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 88032500 VND",
+    "question": "Mua 5 iPhone dung ma VIP20, ship TP HCM tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-043",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 36025000 VND",
+    "question": "Mua 2 iPad voi coupon SALE15 giao TP HCM tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-044",
+    "correct": 1,
+    "headline": 96.99,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 18000000 VND",
+    "question": "Shop con iPad khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-045",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 MacBook dung ma WINNER giao den Vung Tau tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-046",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 76536250 VND",
+    "question": "Mua 5 iPad ap dung ma SALE15 giao hà nội - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-047",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 2 MacBook giao den Can Tho - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-048",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 3 sony dung ma VIP20, ship Ha Noi tinh tong tien giup minh. goi minh qua sdt 0938222111"
+  },
+  {
+    "qid": "pub-049",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 175060000 VND",
+    "question": "Mua 5 MacBook voi coupon WINNER, ship TP HCM, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-050",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 35038000 VND",
+    "question": "Mua 1 MacBook giao đà nẵng, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-051",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 61232000 VND",
+    "question": "Mua 4 iPad ap dung ma SALE15 giao hải phòng tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-052",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 oppo voi coupon VIP20 giao den TP HCM tinh tong tien giup minh. lien he email an.nguyen@gmail.com"
+  },
+  {
+    "qid": "pub-053",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 44035000 VND",
+    "question": "Mua 2 iPhone voi coupon WINNER, ship đà nẵng, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-054",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 iPhone dung ma WINNER, ship hải phòng tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-055",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 sony giao Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-056",
+    "correct": 1,
+    "headline": 96.99,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 35000000 VND",
+    "question": "Shop con MacBook khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-057",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 iPad giao den Vung Tau, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-058",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 63046000 VND",
+    "question": "Mua 2 MacBook ap dung ma WINNER, ship đà nẵng, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-059",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 140062000 VND",
+    "question": "Mua 4 MacBook voi coupon WINNER, ship Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-060",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 54031750 VND",
+    "question": "Mua 3 iPad voi coupon EXPIRED giao den Ha Noi - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-061",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 70430000 VND",
+    "question": "Mua 4 iPhone dung ma VIP20, ship TP HCM, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-062",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 MacBook dung ma WINNER giao hà nội tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-063",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 2 iPhone voi coupon WINNER giao đà nẵng tinh tong tien giup minh. goi minh qua sdt 0912345678"
+  },
+  {
+    "qid": "pub-064",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 175070000 VND",
+    "question": "Mua 5 MacBook voi coupon SALE15 giao Da Nang - tong cong bao nhieu VND? lien he email linh.pham@outlook.com"
+  },
+  {
+    "qid": "pub-065",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPhone khong va gia bao nhieu VND? lien he email quan.le@icloud.com"
+  },
+  {
+    "qid": "pub-066",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 88040000 VND",
+    "question": "Mua 4 iPhone voi coupon EXPIRED, ship Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-067",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 22035000 VND",
+    "question": "Mua 1 iPhone giao Da Nang tinh tong tien giup minh. lien he email minh.tran@yahoo.com"
+  },
+  {
+    "qid": "pub-068",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 157565000 VND",
+    "question": "Mua 5 MacBook ap dung ma WINNER giao den Ha Noi, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-069",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 88042500 VND",
+    "question": "Mua 5 iPhone ap dung ma VIP20 giao den Da Nang - tong cong bao nhieu VND? goi minh qua sdt 0901234567"
+  },
+  {
+    "qid": "pub-070",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPhone khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-071",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 28825000 VND",
+    "question": "Mua 2 iPad dung ma VIP20 giao den TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0912345678"
+  },
+  {
+    "qid": "pub-072",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 89294000 VND",
+    "question": "Mua 3 MacBook dung ma SALE15 giao TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0901234567"
+  },
+  {
+    "qid": "pub-073",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 22025000 VND",
+    "question": "Mua 1 iPhone voi coupon WINNER, ship TP HCM - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-074",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 90036250 VND",
+    "question": "Mua 5 iPad dung ma EXPIRED giao Ha Noi - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-075",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 57634000 VND",
+    "question": "Mua 4 iPad dung ma VIP20, ship Ha Noi, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-076",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 3 AirPods ap dung ma SALE15 giao den Hai Phong, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-077",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 88033000 VND",
+    "question": "Mua 4 iPhone voi coupon WINNER, ship Hai Phong, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-078",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 90036250 VND",
+    "question": "Mua 5 iPad ap dung ma EXPIRED, ship hà nội, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-079",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 64832000 VND",
+    "question": "Mua 4 iPad dung ma WINNER giao den Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-080",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 81031250 VND",
+    "question": "Mua 5 iPad dung ma WINNER giao TP HCM tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-081",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 52837500 VND",
+    "question": "Mua 3 iPhone dung ma VIP20, ship Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-082",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 sony ap dung ma SALE15 - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-083",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 14428000 VND",
+    "question": "Mua 1 iPad ap dung ma VIP20 giao Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-084",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 2 AirPods voi coupon SALE15 giao den TP HCM, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-085",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 140057000 VND",
+    "question": "Mua 4 MacBook dung ma EXPIRED giao Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-086",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 140055000 VND",
+    "question": "Mua 4 MacBook giao Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-087",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 AirPods ap dung ma WINNER - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-088",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 45929750 VND",
+    "question": "Mua 3 iPad ap dung ma SALE15 giao den hải phòng, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-089",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 nokia, ship Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-090",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 iPad dung ma WINNER giao den đà lạt - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-091",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPhone khong va gia bao nhieu VND? lien he email an.nguyen@gmail.com"
+  },
+  {
+    "qid": "pub-092",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 72032000 VND",
+    "question": "Mua 4 iPad giao den Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-093",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 105047000 VND",
+    "question": "Mua 3 MacBook voi coupon EXPIRED giao Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-094",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 79230000 VND",
+    "question": "Mua 4 iPhone dung ma WINNER, ship TP HCM, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-095",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 MacBook ap dung ma EXPIRED giao den Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-096",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 57634000 VND",
+    "question": "Mua 4 iPad dung ma VIP20 giao hà nội - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-097",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 2 MacBook dung ma VIP20, ship đà lạt - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-098",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 36035000 VND",
+    "question": "Mua 2 iPad voi coupon SALE15, ship Da Nang - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-099",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 88033000 VND",
+    "question": "Mua 4 iPhone voi coupon WINNER, ship Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-100",
+    "correct": 0,
+    "headline": 76.19,
+    "correctScore": 0.5,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Shop con iPhone khong va gia bao nhieu VND? goi minh qua sdt 0912345678"
+  },
+  {
+    "qid": "pub-101",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 14428000 VND",
+    "question": "Mua 1 iPad dung ma VIP20 giao Hai Phong, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-102",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 54029750 VND",
+    "question": "Mua 3 iPad voi coupon SALE15 giao den hải phòng - tong cong bao nhieu VND? lien he email minh.tran@yahoo.com"
+  },
+  {
+    "qid": "pub-103",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 5 MacBook dung ma SALE15, ship Vung Tau tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-104",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 2 AirPods giao TP HCM, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-105",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 3 AirPods ap dung ma EXPIRED - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-106",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 AirPods dung ma WINNER giao Hai Phong tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-107",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 1 MacBook dung ma VIP20 giao Ha Noi tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-108",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 MacBook ap dung ma SALE15 giao đà lạt tinh tong tien giup minh. lien he email an.nguyen@gmail.com"
+  },
+  {
+    "qid": "pub-109",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 54029750 VND",
+    "question": "Mua 3 iPad, ship Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-110",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 xiaomi, ship TP HCM - tong cong bao nhieu VND? lien he email minh.tran@yahoo.com"
+  },
+  {
+    "qid": "pub-111",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 57639000 VND",
+    "question": "Mua 4 iPad ap dung ma VIP20 giao Da Nang, tong thanh toan bao nhieu?"
+  },
+  {
+    "qid": "pub-112",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 54031750 VND",
+    "question": "Mua 3 iPad giao den hà nội - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-113",
+    "correct": 0,
+    "headline": 52.89,
+    "correctScore": 0.0,
+    "answer": "Tong cong: 36030000 VND",
+    "question": "Mua 2 iPad voi coupon WINNER giao Ha Noi - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-114",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 52827500 VND",
+    "question": "Mua 3 iPhone ap dung ma VIP20 giao den TP HCM - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-115",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 3 iPad ap dung ma EXPIRED giao den Vung Tau, tong thanh toan bao nhieu? lien he email minh.tran@yahoo.com"
+  },
+  {
+    "qid": "pub-116",
+    "correct": 0,
+    "headline": 80.85,
+    "correctScore": 0.6,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 oppo giao TP HCM tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-117",
+    "correct": 1,
+    "headline": 99.49,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 126055000 VND",
+    "question": "Mua 4 MacBook dung ma WINNER, ship Hai Phong - tong cong bao nhieu VND?"
+  },
+  {
+    "qid": "pub-118",
+    "correct": 1,
+    "headline": 96.99,
+    "correctScore": 1.0,
+    "answer": "Tong cong: 18000000 VND",
+    "question": "Shop con iPad khong va gia bao nhieu VND?"
+  },
+  {
+    "qid": "pub-119",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 4 iPhone ap dung ma VIP20 giao den hải phòng tinh tong tien giup minh."
+  },
+  {
+    "qid": "pub-120",
+    "correct": 0,
+    "headline": 50.89,
+    "correctScore": 0.0,
+    "answer": "Khong the dat hang voi thong tin hien tai.",
+    "question": "Mua 3 MacBook dung ma WINNER, ship hải phòng tinh tong tien giup minh."
+  }
+]
